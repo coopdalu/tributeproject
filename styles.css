@@ -1,0 +1,93 @@
+*{font-family: fantasy;}
+#p{text-decoration: underline;}
+
+main {
+    background-color: black;
+    margin: 30px 5px;
+}
+
+#title {color: gold;
+    margin-top: 50px;
+    font-size: 40px;
+    border: 10px groove gold;
+    padding: 10px;
+}
+
+.header {color: silver;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+#img-div {
+    width: 95%;
+    margin:80px auto;
+    background-color:black;
+    text-align: center;
+}
+
+#img-div > #image {
+    display: block;
+    margin: 20px auto;
+    width: 60%;
+    max-width: 100%;
+    height: auto;
+    
+}
+
+#img-div > #img-cap {
+    width: 59%;
+    margin: 5px auto;
+    padding-bottom: 20px;
+    color: silver;
+    text-align: center;
+}
+
+#game-info {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: ;
+}
+
+#game-info > h3 {color: aliceblue;
+    font-size: 30px;
+    margin: 50px 0 20px 0;
+}
+
+span{color:red;
+    font-weight: bold;
+    border: 5px double blue;
+    padding: 3px;
+    border-radius: 20px;
+}
+
+#game-info > div > ul > li {
+    width: 45%;
+    margin: 20px auto;
+    line-height: 30px;
+    color:silver;
+}
+
+q {color: gold;
+    margin: 20px 0 0 0;
+    text-align: center;
+}
+
+footer {color:silver;
+    margin: 20px 0;
+    text-align: center;
+}
+
+a {
+    cursor: pointer;
+    color: rgb(108, 137, 223);
+}
+p{color:silver;
+text-align: center;}
